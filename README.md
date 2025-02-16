@@ -1,31 +1,17 @@
 # Fibonacci-series
 
-#include <stdio.h>
 
-void fibonacci(int n) {
-    int first = 0, second = 1, next;
-    printf("Fibonacci Series: ");
-    for (int i = 0; i < n; i++) {
-        printf("%d ", first);
-        next = first + second;
-        first = second;
-        second = next;
-    }
-    printf("\n");
-}
+Description
 
-int main() {
-    int num;    
-    printf("Enter the number of terms: ");
-    scanf("%d", &num);
-    if (num <= 0) {
-        printf("Please enter a positive integer.\n");
-    } else {
-        fibonacci(num);
-    }
-    return 0;
-}
+This is a simple C program to generate the Fibonacci series up to a specified number of terms. The Fibonacci sequence is a series where each number is the sum of the two preceding ones, usually starting with 0 and 1.
 
+Features
+
+Generates Fibonacci series up to a given number of terms.
+
+Simple and efficient implementation using loops.
+
+Beginner-friendly C programming project.
 
 ![image](https://github.com/user-attachments/assets/4a0311b8-113c-4b4b-97d8-935fddea92e6)
 
